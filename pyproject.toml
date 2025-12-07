@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fair_fairness_benchmark"
-version = "0.1.0"
+version = "0.1.2"
 description = "Fairness benchmarking toolkit for machine learning."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -14,7 +14,7 @@ authors = [
 ]
 dependencies = [
     "pandas==1.5.3",
-	"torch==1.13.1+cu116",
+	"torch==1.13.1",
 	"wandb==0.14.0",
 	"scikit-learn==1.2.2",
 	"tabulate==0.9.0",
